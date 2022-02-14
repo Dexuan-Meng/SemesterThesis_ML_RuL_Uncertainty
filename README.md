@@ -3,5 +3,5 @@ Semester Thesis: ML-based prediction of RuL of Li-ion battery with Uncertainty
 
 Content: 
 1. Modified packages
-2. Notebooks
+2. Notebooks and python files
 3. Used data
