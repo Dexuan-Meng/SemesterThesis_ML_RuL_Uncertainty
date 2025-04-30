@@ -13,14 +13,6 @@ Implemented models include:
 - Monte Carlo Dropout (MCD)
 - Bayes by Backprop (BBP)
 
-## 📁 Project Structure
-
-battery-eol-uncertainty/ ├── data/ # MIT dataset (preprocessed) ├── src/ │ ├── feature_engineering.py # Feature extraction and selection │ ├── train_gpr.py # Training script for GPR │ ├── train_rfr.py # Training script for RFR │ ├── train_mcd.py # Training script for MCD │ ├── train_bbp.py # Training script for BBP │ ├── evaluation.py # Evaluation metrics (MAPE, RMSCE, CRPS, etc.) │ └── sensitivity_analysis.py # Euclidean distance / missing data experiments ├── notebooks/ # Jupyter notebooks for visualizations and debugging ├── results/ # Saved figures and output predictions ├── requirements.txt # Python dependencies └── README.md
-
-markdown
-复制
-编辑
-
 ## 📊 Evaluation Metrics
 
 The following metrics are used to evaluate model performance:
